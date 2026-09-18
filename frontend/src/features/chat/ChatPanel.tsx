@@ -74,9 +74,10 @@ export default function ChatPanel({ sessionId }: Props) {
                 {message.sources.map((source, sourceIndex) => (
                   <li key={`${source.url}-${sourceIndex}`}>
                     <a href={source.url} target="_blank" rel="noreferrer">
-                      {source.title || source.url}
+                      [{source.citation_id}] {source.title || source.url}
                     </a>
                     <span>{source.snippet}</span>
+                    <span>Score: {source.score.toFixed(3)}</span>
                   </li>
                 ))}
               </ul>

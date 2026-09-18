@@ -9,3 +9,4 @@ class ChatGraphState(TypedDict):
     sources: list[dict[str, str]]
     answer: str
     tool_events: list[dict[str, Any]]
+    crawl_stats: dict[str, int]

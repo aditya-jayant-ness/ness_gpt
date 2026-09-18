@@ -10,9 +10,12 @@ class ChatRequest(BaseModel):
 
 
 class SourceSnippet(BaseModel):
+    citation_id: str
     url: str
     title: str | None = None
     snippet: str
+    score: float
+    metadata: dict[str, Any] = {}
 
 
 class ChatResponse(BaseModel):

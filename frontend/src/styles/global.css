@@ -83,6 +83,17 @@ h3 {
   font-weight: 600;
 }
 
+.admin-actions {
+  margin-top: 12px;
+  display: flex;
+  gap: 8px;
+}
+
+.admin-status {
+  margin-top: 10px;
+  color: var(--ink-muted);
+}
+
 input,
 textarea {
   width: 100%;

@@ -1,8 +1,10 @@
 fastapi==0.117.1
 uvicorn[standard]==0.36.0
-pydantic==2.11.7
+pydantic==2.13.4
 pydantic-settings==2.11.0
+email-validator==2.3.0
 langgraph==0.6.6
+langchain==0.3.27
 langchain-aws==0.2.18
 boto3==1.40.18
 httpx==0.28.1

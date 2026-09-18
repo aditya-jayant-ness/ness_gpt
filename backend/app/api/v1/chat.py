@@ -17,6 +17,7 @@ async def ask_question(payload: ChatRequest) -> ChatResponse:
         "sources": [],
         "answer": "",
         "tool_events": [],
+        "crawl_stats": {},
     }
 
     try:
