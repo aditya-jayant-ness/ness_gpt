@@ -1,0 +1,15 @@
+fastapi==0.117.1
+uvicorn[standard]==0.36.0
+pydantic==2.11.7
+pydantic-settings==2.11.0
+langgraph==0.6.6
+langchain-aws==0.2.18
+boto3==1.40.18
+httpx==0.28.1
+beautifulsoup4==4.13.4
+python-dotenv==1.1.1
+google-api-python-client==2.163.0
+google-auth==2.38.0
+google-auth-oauthlib==1.2.1
+reportlab==4.3.1
+pytest==8.4.1
